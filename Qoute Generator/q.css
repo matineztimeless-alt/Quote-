@@ -1,0 +1,54 @@
+*{  
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    font-family: "Space Grotesk" ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(13deg, #FFD6BA, #FFEFD5);
+}
+#quote-app {
+    width: 500px;
+    min-height: 200px;
+    padding: 40px;
+    border-radius: 24px;
+    background: #c6ff34;
+    color: #10231B;
+    text-align: center;
+}
+#quote-app h2 {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+#quotes-container {
+    color: #E8892D;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+#nextBtn {
+    background: #E8892D;
+    color: #F5F0E6;
+    padding: 14px 35px;
+    border: none;
+    border-radius: 30px;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+}
+#nextBtn:hover {
+    background: #10231B;
+    color: #F5F0E6;
+}
