@@ -1,0 +1,72 @@
+<!DOCTYpE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExpensI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="tracker">
+         <h2 class="the">Expens<span>I</span></h2>
+        <div class="dashboard">
+            <div class="summary-item">
+                <h3><ion-icon class="icon" name="wallet-outline"></ion-icon> Total Balance</h3>
+                <p>₦0.00</p>
+            </div>
+            <div class="summary-item">
+                <h3><ion-icon class="icon" name="card-outline"></ion-icon> Balance</h3>
+                <p>₦0.00</p>
+            </div>
+            <div class="summary-item">
+                <h3><ion-icon class="icon" name="trending-up-outline"></ion-icon> Income</h3>
+                <p>₦0.00</p>
+            </div>
+            <div class="summary-ite">
+                <h3><ion-icon class="ex-icon" name="trending-down-outline"></ion-icon> Expenses</h3>
+                <p>₦0.00</p>
+            </div>
+        </div>       
+          <h2 class="addtrans">Add Transaction</h2>
+        <section class="transaction">
+          
+            <div class="transac-descrip">
+                <label for="descri">Description:</label>
+                <input type="text"
+                id="descri"
+                placeholder="Description">
+            </div>
+            <div class="transac-amount">
+                <label for="amount">Amount:</label>
+                <input type="number"
+                id="amount"
+                placeholder="Enter Amount!">
+            </div>
+            <div class="transac-type">
+                <label for="type">Type:</label>
+                <select id="type">
+                    <option>Income</option>
+                    <option>Expense</option>
+                </select>
+            </div>
+            <button>Add Transaction</button>
+        </section>
+        <section>
+            <h2>Transaction History</h2>
+            <div class="trans-display">
+                <ion-icon class="icon" name="wallet-outline"></ion-icon>
+                <h6>No transaction yet.</h6>
+                <p>Add a transaction to get started.</p>
+            </div>
+        </section>
+    </section>
+<script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js">
+</script>
+<script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js">
+</script>
+</body>
+</html>

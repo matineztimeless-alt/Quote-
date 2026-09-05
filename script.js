@@ -1,0 +1,10 @@
+background-color:#044640;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 110%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: -30px;

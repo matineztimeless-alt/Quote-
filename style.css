@@ -1,0 +1,165 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Inter';
+    background-color:  #044640;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tracker{
+    background-color: #022c29;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 30px;
+    align-items: center;
+    width: 450px;
+    border: 2px solid white;
+}
+.dashboard{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 16px;
+    width: 120%;
+    align-items: center;
+    margin-top: -20px;
+}
+.the{
+    font-size: 40px;
+    margin-top: -20px;
+}
+.summary-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: px 5px;
+}
+.summary-ite{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: px 5px;
+}
+.icon{
+    font-size: 20px;
+    color: white;
+    background-color: #022c29;
+    border-radius: 50px;
+    padding: 5px;
+}
+.summary-item h3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.ex-icon{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.transac-descrip{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: first baseline;
+}
+.transac-descrip input{
+    padding: 3px;
+    border-radius: 11px;
+    border: 1px solid black;
+    margin-top: -10px;
+    width: 100%;
+}
+
+.transac-amount input{
+    padding: 3px;
+    border-radius: 11px;
+    border: 1px solid black;
+    margin-top: -10px;
+    width: 100%;
+}
+::placeholder{
+    color: #022c29;
+    font-size: 0.1px;
+    margin-right: 2px;
+}
+.transac-amount {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: first baseline;
+
+}
+
+.transac-type{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: first baseline;
+}
+
+span{
+    color: #22C55E;
+}
+select{
+    padding: 3px;
+    border-radius: 11px;
+    border: 1px solid black;
+    margin-top: -10px;
+    width: 100%;
+}
+.transaction{
+    background-color:#044640;
+    padding: 18px;
+    margin-top: 20px;
+    border-radius: 12px;
+    border: 1px solid white;
+    width: 120%;
+}
+.addtrans{
+    font-size: 20px;
+    margin-left: 0;
+    padding: 5px;
+}
+button{
+    width: 100%;
+    margin-top: 10px;
+    background-color: #098825;
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 11px;
+}
+.trans-display{
+    background-color:#044640;
+    padding: 18px;
+    margin-top: 20px;
+    border-radius: 12px;
+    border: 1px solid white;
+    width: 120%;
+    margin-left: -30px;
+}
+.trans-display h6{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.trans-display p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+.trans-display ion-icon {
+    font-size: 22px;
+}
